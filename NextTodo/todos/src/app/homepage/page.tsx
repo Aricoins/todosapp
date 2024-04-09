@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'; // Importa el archivo CSS de AOS
 
 const { Title, Paragraph } = Typography;
 
-const HomePage: React.FC = () => {
+const Page: React.FC = () => {
   // Inicializar AOS
   useEffect(() => {
     AOS.init({
@@ -35,4 +35,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default Page;
